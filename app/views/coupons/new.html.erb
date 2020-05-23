@@ -7,13 +7,13 @@
     Coupon Code:
   </label>
   <br>
-    <%= text_field_tag: "coupon[coupon_code]" %>
+    <%= text_field_tag :"coupon[coupon_code]" %>
   <br>
   <label>
     Coupon for Store:
   </label>
   <br>
-    <%= text_field_tag: "coupon[store]" %>
+    <%= text_field_tag :"coupon[store]" %>
   <br>
 
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
